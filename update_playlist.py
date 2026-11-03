@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from curl_cffi import requests  # Cloudflare / 403 Bypass के लिए
 
-PLAYLIST_URL = "https://raw.githubusercontent.com/PRTSTREAM/Filmyfy/refs/heads/main/playlist.m3u"
+PLAYLIST_URL = "https://raw.githubusercontent.com/PRTSTREAM/Filmyfy-720/refs/heads/main/playlist.m3u"
 GROUP_TITLE_NAME = "🎬 NEW 4K"
 
 def add_or_update_group_title(extinf_line, group_name):
